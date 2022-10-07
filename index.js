@@ -38,7 +38,7 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
-playerSelection = "Paper";
+playerSelection = "Rock";
 computerSelection = getComputerChoice();
 console.log(computerSelection)
 console.log(playRound(playerSelection, computerSelection));
