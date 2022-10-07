@@ -37,8 +37,16 @@ function playRound(playerSelection, computerSelection){
         }
     }
 }
+function game(){
+    for (let i = 0; i < 5; i++){
+        let sign = prompt("Choose");
+        playerSelection = sign
+        getComputerChoice()
+        computerSelection = getComputerChoice()
+        console.log(computerSelection)
+        console.log(playRound(playerSelection, computerSelection));
+    }
+}
 
-playerSelection = "Rock";
-computerSelection = getComputerChoice();
-console.log(computerSelection)
-console.log(playRound(playerSelection, computerSelection));
+playerSelection = "";
+game()
