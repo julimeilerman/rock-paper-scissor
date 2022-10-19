@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(73, 90, 90);
+}
+
+div{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+#players{
+    color: rgb(185, 196, 38);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    margin-right: 60px;
+    justify-content: space-between;
+}
+#players h2{
+    height: max-content;
+    width: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#results{
+    color: rgb(104, 46, 19);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+button{
+    background-color: rgb(156, 133, 0);
+    color: rgb(245, 214, 168);
+    width: 75px;
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+}
+#btns {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+#score{
+    color: rgb(66, 26, 8);
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
