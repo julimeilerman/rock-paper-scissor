@@ -99,4 +99,4 @@ function game(btnSelection){
         computerScore.textContent = `Computer score = ${loses}`
 
     } 
-}
+} 
