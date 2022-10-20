@@ -100,37 +100,3 @@ function game(btnSelection){
 
     } 
 }
-
-/*function game(){
-    let wins = 0
-    let loses = 0
-    for (let i = 0; i < 5; i++){
-        let sign = prompt("Choose");
-        playerSelection = sign
-        getComputerChoice()
-        computerSelection = getComputerChoice()
-        computerEl.textContent = computerSelection
-        matchEl.textContent = playRound(playerSelection, computerSelection)
-        console.log(computerSelection)
-        console.log(playRound(playerSelection, computerSelection));
-        if (playRound(playerSelection, computerSelection) === "You WIN!"){
-            wins += 1;
-        } else if (playRound(playerSelection, computerSelection) === "You LOSE!"){
-            loses += 1;
-        }
-    }
-    if (wins > loses){
-        console.log("YOU WIN THE GAME")
-        gameEl.textContent = "YOU WIN THE GAME"
-    } else if (wins < loses){
-        console.log("YOU LOSE THE GAME")
-        gameEl.textContent = "YOU LOSE THE GAME"
-    } else {
-        console.log("IT'S A DRAW")
-        gameEl.textContent = "IT'S A DRAW"
-    }
-}*/
-
-
-// HAY QUE MODIFICAR EL SCRIPT PARA QUE SE ACTUALICE CONSTANTEMENTE EL DOM CON LOS RESULTADOS DE CADA RONDA
-// AHORA SOLO SE ACTUALIZA CUANDO TERMINA EL JUEGO
